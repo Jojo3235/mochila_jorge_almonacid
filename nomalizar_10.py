@@ -9,7 +9,7 @@ df = pd.read_csv('pokemon_normalized_2.csv')
 
 num_filas = len(df)
 
-df['valor_10'] = df.apply(lambda x: 10/x.capture_rate + 1.5, axis=1)
+df['valor_10'] = df.apply(lambda x: 10/x.capture_rate , axis=1)
 
 # df['proporcion'] = df.apply(lambda x: 1/x.valor_10, axis=1)
 

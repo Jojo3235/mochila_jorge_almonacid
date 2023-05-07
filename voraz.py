@@ -45,6 +45,3 @@ def main():
     print(pokes)
     print("Beneficio total:", beneficio_total)
     print("Peso total:", peso_total)
-
-if __name__ == '__main__':
-    main()

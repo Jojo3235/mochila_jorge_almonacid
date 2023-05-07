@@ -31,7 +31,7 @@ def mochila_pokemon(df, limite_mochila, limite_peso):
 
 def main():
     # Leer el archivo CSV
-    df = pd.read_csv('pokemon_normalized_2.csv')
+    df = pd.read_csv('pokemon.csv')
 
     # Parámetros de la mochila
     limite_mochila = 6
